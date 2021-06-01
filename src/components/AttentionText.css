@@ -1,0 +1,24 @@
+.attention-box-form6 {
+  display: flex;
+  align-items: center;
+  width: 538px;
+  height: 116px;
+  margin: 53px 0 30px;
+  padding-left: 15px;
+  padding-right: 16px;
+  border-radius: 7px;
+  background-color: rgba(248, 196, 28, 0.1);
+}
+
+.attention-box-form6 p {
+  width: 424px;
+  color: #e6b413;
+  font-size: 14px;
+  font-family: AkkuratPro-bold;
+  margin-left: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+}

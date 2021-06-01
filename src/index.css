@@ -1,0 +1,144 @@
+/*-----Reset CSS-----*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: CircularStd-medium;
+  src: url("./fonts/Circular-Std-Font/Circular\ Std\ Medium.ttf");
+}
+
+@font-face {
+  font-family: CircularStd-bold;
+  src: url("./fonts/Circular-Std-Font/Circular\ Std\ Bold.ttf");
+}
+
+@font-face {
+  font-family: AkkuratPro-bold;
+  src: url("./fonts/AkkuratPro/AkkuratPro-Bold.otf");
+}
+
+@font-face {
+  font-family: AkkuratPro-regular;
+  src: url("./fonts/AkkuratPro/AkkuratPro-Regular.otf");
+}
+
+:root {
+  --blue-grey: #637696;
+  --blue-grey-50: rgba(99, 118, 150, 0.5);
+  --squash: #e6b413;
+  --green-blue: #00b178;
+  --denim-blue-30: rgba(60, 90, 154, 0.3);
+  --scarlet: #d0021b;
+  --dark-lime-green: #86c306;
+  --cerulean: #009cde;
+  --nice-blue-7: rgba(23, 115, 166, 0.07);
+  --dark-grey-blue: #3a4e6f;
+  --cerulean-30: rgba(0, 156, 222, 0.3);
+  --cerulean-20: rgba(0, 156, 222, 0.2);
+  --cerulean-4: rgba(0, 156, 222, 0.04);
+  --golden-yellow: #f8c41c;
+  --white: white;
+  --black: black;
+  --error: rgba(208, 2, 27, 0.5);
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: CircularStd-medium;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

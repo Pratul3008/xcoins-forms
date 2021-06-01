@@ -1,0 +1,65 @@
+form {
+  margin-top: 29px;
+}
+
+.form-instruct {
+  width: 462px;
+  height: 54px;
+  margin: 68px 0 30px;
+  padding: 15px 82px 19px 25px;
+  font-size: 16px;
+  font-family: AkkuratPro-regular;
+  color: var(--blue-grey);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgb(59 88 104 / 7%);
+  background-color: var(--white);
+  line-height: 1.75;
+  word-spacing: 0.5px;
+}
+
+.form-4 input {
+  width: 553px;
+  height: 50px;
+  margin: 5px 0 0 0;
+  border: 2px solid var(--white);
+  outline:none;
+  border-radius: 10px;
+  background-color: var(--cerulean-4);
+  padding-left: 18px;
+  color: var(--blue-grey);
+  font-size: 18px;
+  font-family: AkkuratPro-regular;
+}
+
+.form-4 input:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulaen-20);
+  background-color: var(--white);
+}
+
+.attempt {
+  margin: 9px 5px 36px 18px;
+  font-size: 16px;
+  font-family: AkkuratPro-regular;
+  text-align: center;
+  word-spacing: 2px;
+  color: var(--blue-grey-50);
+}
+
+.form4-submit {
+  width: 580px;
+  padding: 22px 91px 22px 100px;
+}
+
+.form-4 .error-border {
+  border: 2px solid var(--error);
+}
+
+.form4-error-container {
+  height: 19px;
+}
+
+.form4-error {
+  font-size: 16px;
+  color: var(--error);
+}

@@ -1,0 +1,119 @@
+.form5 {
+  margin-top: 29px;
+}
+
+.form-5-country-code {
+  width: 175px;
+  height: 50px;
+  margin: 5px 19px 0 0;
+  border: 2px solid var(--white);
+  outline:none;
+  border-radius: 10px;
+  background-color: var(--cerulean-4);
+  padding-left: 18px;
+  font-size: 18px;
+  font-family: AkkuratPro-regular;
+  color: var(--blue-grey);
+}
+
+.form-5-country-code:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulean-20);
+  background-color: var(--white);
+}
+
+.form-5-phone-container {
+  width: 210px;
+}
+
+.form-5-phone {
+  width: 186px;
+  height: 50px;
+  margin: 5px 0 0 3px;
+  border: 2px solid var(--white);
+  outline:none;
+  border-radius: 10px;
+  background-color: var(--cerulean-4);
+  padding-left: 18px;
+  font-size: 18px;
+  font-family: AkkuratPro-regular;
+  color: var(--blue-grey);
+}
+
+.form-5-phone:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulaen-20);
+  background-color: var(--white);
+}
+
+.send-code {
+  width: 200px;
+}
+
+.send-code button {
+  width: 153px;
+  height: 50px;
+  margin: 47px 0 30px 17px;
+  padding: 12px 30px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: AkkuratPro-bold;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 1px;
+  border: hidden;
+  color: var(--white);
+  box-shadow: 0 2px 4px 0 var(--cerulean-30);
+  background-color: var(--cerulean);
+  cursor: pointer;
+}
+
+.sms-field {
+  width: 553px;
+  height: 50px;
+  margin: 5px 0 0 0;
+  border: 2px solid var(--white);
+  outline:none;
+  border-radius: 10px;
+  background-color: var(--cerulean-4);
+  padding-left: 18px;
+  color: var(--blue-grey);
+  font-size: 18px;
+  font-family: AkkuratPro-regular;
+}
+
+.sms-field:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulaen-20);
+  background-color: var(--white);
+}
+
+.form-5-attempt {
+  margin: 9px 5px 36px 18px;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 16px;
+  font-family: AkkuratPro-regular;
+  color: var(--blue-grey-50);
+}
+
+.form5-submit {
+  width: 580px;
+  padding: 22px 91px 22px 100px;
+}
+
+.error-border {
+  border: 2px solid var(--error);
+}
+
+.form5-error-container {
+  height: 19px;
+}
+
+.form-5-error {
+  font-size: 16px;
+
+  color: var(--error);
+}

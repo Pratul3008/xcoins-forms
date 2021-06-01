@@ -1,0 +1,145 @@
+.form-6 {
+  margin-top: 9px;
+}
+
+.form6-field {
+  width: 572px;
+  height: 50px;
+  margin: 5px 0 0 0;
+  border: 2px solid var(--white);
+  outline:none;
+  border-radius: 10px;
+  background-color: var(--cerulean-4);
+  padding-left: 18px;
+  font-size: 18px;
+  font-family: AkkuratPro-regular;
+  color: var(--blue-grey);
+}
+
+#dlno {
+  width: 563px;
+}
+
+#method {
+  width: 575px;
+}
+
+#dob {
+  width: 553px;
+}
+
+.form-6 input[type="text"]:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulean-20);
+  background-color: var(--white);
+}
+
+input[type="date"]:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulean-20);
+  background-color: var(--white);
+}
+
+select:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulean-20);
+  background-color: var(--white);
+}
+
+.form6-field:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulean-20);
+  background-color: var(--white);
+}
+
+.choose-opt {
+  width: 300px;
+  font-family: AkkuratPro-regular;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: var(--blue-grey-50);
+}
+
+input[type="file"]::file-selector-button {
+  width: 159px;
+  height: 50px;
+  margin: 5px 20px 0 0;
+  padding: 15px 28px 16px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 var(--cerulean-30);
+  background-color: var(--cerulean);
+  border: hidden;
+  font-family: AkkuratPro-bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 1px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.cross-visible {
+  visibility: visible;
+  margin-left: 5px;
+}
+
+.cross-hidden {
+  visibility: hidden;
+}
+
+/* input[type="file"]::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+} */
+
+.form-6-checkbox {
+  width: 553px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.form-6-checkbox .check {
+  width: 20px;
+  height: 20px;
+}
+
+.form-6-checkbox-text {
+  width: 512px;
+  margin: 0 0 0 2px;
+  color: var(--blue-grey);
+  font-size: 16px;
+  font-family: AkkuratPro-regular;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+}
+
+.form6-submit {
+  width: 584px;
+  margin: 0 0 16px;
+  padding: 20px 241px 22px 208px;
+}
+
+.form-6 .error-border {
+  border: 2px solid var(--error);
+}
+
+.form6-error-container {
+  height: 19px;
+}
+
+.form-6-error {
+  font-size: 16px;
+
+  color: var(--error);
+}

@@ -1,0 +1,124 @@
+form {
+  margin-top: 29px;
+}
+
+.form-1 input {
+  width: 553px;
+  height: 50px;
+  margin: 5px 0 0 0;
+  border-radius: 10px;
+  border: 2px solid var(--white);
+  outline:none;
+  background-color: var(--cerulean-4);
+  padding-left: 18px;
+  font-size: 18px;
+  font-family: AkkuratPro-regular;
+  color: var(--blue-grey);
+}
+
+.form-1 input:focus {
+  border-color: var(--cerulean-30);
+  box-shadow: 0 0 15px 0 var(--cerulean-20);
+  background-color: var(--white);
+}
+
+.form-1 .checkbox {
+  width: 553px;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.form-1 .check {
+  width: 20px;
+  height: 20px;
+  margin: 5px 10px 53px 0;
+}
+
+.form-1 .checkbox-text {
+  width: 495px;
+  word-spacing: 0.5;
+  height: 78px;
+  margin: 0 0 0 10px;
+  color: var(--blue-grey);
+  font-size: 16px;
+  font-family: AkkuratPro-regular;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+}
+
+.terms-text {
+  color: var(--cerulean);
+  text-decoration: none;
+}
+
+.g-recaptcha {
+  width: 553px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.form1-submit {
+  width: 572px;
+  margin: 40px 0 16px;
+  padding: 18px 245px 22px 234px;
+}
+
+.or {
+  width: 17px;
+  height: 26px;
+  margin: 2px 267px 3px 269px;
+  font-size: 16px;
+  opacity: 0.5;
+  line-height: 1.63;
+  color: var(--blue-grey);
+}
+
+.facebook button {
+  width: 572px;
+  height: 64px;
+  margin: 20px 0 0;
+  padding: 9px 20px 9px 139px;
+  border-radius: 32px;
+  border: hidden;
+  box-shadow: 0 2px 4px 0 var(--denim-blue-30);
+  background-color: #3c5a9a;
+  cursor: pointer;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+}
+
+.btn-content img {
+  margin-left: 14px;
+}
+
+.btn-content .btn-content-txt {
+  font-size: 16px;
+  font-family: AkkuratPro-bold;
+  margin-left: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: var(--white);
+}
+
+.form1-error-container {
+  height: 19px;
+}
+
+.form1-error {
+  font-size: 16px;
+  color: var(--error);
+}
+
+.form-1 .error-border {
+  border: 2px solid var(--error);
+}

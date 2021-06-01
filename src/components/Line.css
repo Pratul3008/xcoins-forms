@@ -1,0 +1,7 @@
+.line {
+  width: 67px;
+  height: 1px;
+  margin-top: 32px;
+  opacity: 0.2;
+  background-color: var(--blue-grey);
+}

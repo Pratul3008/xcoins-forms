@@ -1,0 +1,49 @@
+.clock-box-form1 {
+  display: flex;
+  align-items: center;
+  width: 465px;
+  height: 72px;
+  margin: 53px 0 30px;
+  padding-left: 15px;
+  padding-right: 90px;
+  border-radius: 7px;
+  background-color: rgba(248, 196, 28, 0.1);
+}
+
+.clock-box-form1 p {
+  width: 448px;
+  color: #e6b413;
+  font-size: 14px;
+  font-family: AkkuratPro-bold;
+  margin-left: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+}
+
+.clock-box-form2 {
+  display: flex;
+  align-items: center;
+  width: 522px;
+  height: 72px;
+  margin: 53px 0 30px;
+  padding-left: 15px;
+  padding-right: 25px;
+  border-radius: 7px;
+  background-color: rgba(248, 196, 28, 0.1);
+}
+
+.clock-box-form2 p {
+  width: 503px;
+  color: #e6b413;
+  font-size: 14px;
+  font-family: AkkuratPro-bold;
+  margin-left: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+}

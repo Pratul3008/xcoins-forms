@@ -1,0 +1,32 @@
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 126px;
+}
+
+.circle {
+  width: 14px;
+  height: 30px;
+  padding: 18px 27px;
+  border-radius: 50%;
+  background-color: var(--cerulean);
+}
+
+.circle span {
+  color: var(--white);
+}
+
+.step-head {
+  display: inline-block;
+  width: 126px;
+  margin: 15px 2px 0 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: var(--black);
+}

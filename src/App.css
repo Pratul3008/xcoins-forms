@@ -1,0 +1,45 @@
+.container {
+  width: 553px;
+  margin: 191px auto;
+}
+
+.field-head {
+  margin: 20px 0;
+  font-size: 16px;
+  font-family: AkkuratPro-regular;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  opacity: 0.5;
+  color: var(--blue-grey);
+}
+
+.submit-btn {
+  height: 64px;
+  border-radius: 32px;
+  border: hidden;
+  box-shadow: 0 2px 4px 0 rgba(103, 194, 6, 0.3);
+  background-color: var(--dark-lime-green);
+  font-size: 16px;
+  font-family: AkkuratPro-bold;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
